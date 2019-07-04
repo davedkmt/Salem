@@ -88,7 +88,7 @@ banner
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #EA6045;
+    color: lightskyblue;
 }
 
 @media (max-width: 768px) {
@@ -99,7 +99,7 @@ banner
 
 .top-nav-collapse {
     padding: 0;
-    background: rgba(28,74,90, 0.9);
+    background: lightskyblue;
 }
 
 .white, .white:hover, .white:focus
@@ -114,7 +114,7 @@ banner
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
     text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
+    background-color: dodgerblue;
 }
 .navbar-default .navbar-nav > li > a
 {
