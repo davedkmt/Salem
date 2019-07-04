@@ -92,8 +92,8 @@ banner
 }
 
 @media (max-width: 768px) {
-	.navbar-collapse {
-		background: rgba(28,74,90, 0.9);
+	.mobile_logo {
+		display:none;
 	}
 }
 
@@ -143,7 +143,8 @@ banner
 	position: relative;
 }
 .bg-color{
-	background-color: RGBA(13, 70, 83, 0.78);
+	background-color: lightskyblue;
+	opacity: 0.7;
 	min-height: 650px;
 }
 .banner-info{
@@ -202,7 +203,7 @@ services
 cta-1
 ***************************************/
 .schedule-tab {
-	background-color: #0CB8B6;
+	background-color: lightskyblue;
 	float: left;
 }
 .medi-info{
