@@ -301,8 +301,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 992px) {
   #fh5co-header .navbar-brand {
-    margin-left: 1px;
+    margin-left: 10px;
     padding-right: 0 !important;
+     font-size: 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #fh5co-footer .copy-right {
+     margin-left: 30px;
+  }
+}
+@media screen and (max-width: 992px)
+#fh5co-footer .map {
+    width:50%;
+}
+@media screen and (max-width: 992px) {
+  #fh5co-footer > iframe {
+     margin-left: 30px;
   }
 }
 #fh5co-header.navbar-fixed-top {
