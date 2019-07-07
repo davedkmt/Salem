@@ -4766,6 +4766,7 @@ tbody.collapse.in {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
+    padding: 10px 10px;
   }
 }
 
@@ -6520,6 +6521,11 @@ button.close {
     width: 600px;
     margin: 30px auto;
   }
+
+  @media (min-width: 768px) {
+    .navbar-brand{
+      font-size:10px;
+    }
 
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
