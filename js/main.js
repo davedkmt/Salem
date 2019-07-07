@@ -2,6 +2,9 @@
 	
 	'use strict';
 
+   var year = new Date().getFullYear();
+   console.log(year);
+
 
 
 	// iPad and iPod detection	

@@ -116,6 +116,7 @@ figure {
 hr {
   box-sizing: content-box;
   height: 0;
+  background-color: #e7e7e7;
 }
 
 pre {
@@ -4795,7 +4796,6 @@ tbody.collapse.in {
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
-    font-size: 10px;
   }
 }
 

@@ -21,6 +21,45 @@ body {
   position: relative;
   background: #F4F7F7;
 }
+
+.welcome-message > h1 {
+      font-family: 'Alex Brush',cursive;
+      color: #2758a8;
+      font-size: 3rem;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 2rem;
+      line-height: 1;
+      display: inline-block;
+      position: relative;
+      text-transform: capitalize;
+}
+.welcome-message >  h3 {
+      font-family: 'Alex Brush',cursive;
+      color: #2758a8;
+      font-size: 3rem;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 2rem;
+      line-height: 1;
+      display: inline-block;
+      position: relative;
+      text-transform: capitalize;
+}
+
+.welcome-message >  h4 {
+      font-family: 'Alex Brush',cursive;
+      color: #2758a8;
+      font-size: 2rem;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 2rem;
+      line-height: 1;
+      display: inline-block;
+      position: relative;
+      text-transform: capitalize;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -31,6 +70,11 @@ td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+}
+
+.breakPoint {
+height:10px;
+background-color:lightskyblue;
 }
 
 #page {
@@ -509,7 +553,7 @@ h2 {
 #fh5co-counters,
 #fh5co-pricing,
 #fh5co-blog {
-  padding: 8em 0;
+  padding: 2em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services,
