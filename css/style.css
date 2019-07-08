@@ -23,7 +23,7 @@ body {
 }
 
 .welcome-message > h1 {
-      font-family: 'Alex Brush',cursive;
+      font-family: 'Alex Brush',"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
       color: #2758a8;
       font-size: 3rem;
       font-weight: 500;
@@ -303,12 +303,18 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header .navbar-brand {
     margin-left: 10px;
     padding-right: 0 !important;
-     font-size: 15px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 992px) {
   #fh5co-footer .copy-right {
-     margin-left: 30px;
+     margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #fh5co-footer > #contact-form > #map {
+     width: 40%;
   }
 }
 @media screen and (max-width: 992px)
