@@ -1480,7 +1480,7 @@ h2 {
         text-transform: capitalize;
   }
   .welcome-message >  h3 {
-        font-family: 'Alex Brush',cursive;
+        font-family: 'Alex Brush',"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #fff;
         font-size: 3rem;
         font-weight: 400;
@@ -1493,7 +1493,7 @@ h2 {
   }
 
   .welcome-message >  h4 {
-        font-family: 'Alex Brush',cursive;
+        font-family: 'Alex Brush',"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
         color: #fff;
         font-size: 2rem;
         font-weight: 400;
