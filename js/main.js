@@ -5,6 +5,17 @@
    var year = new Date().getFullYear();
    console.log(year);
 
+   $("#slideshow > div:gt(0)").hide();
+
+   setInterval(function() {
+     $('#slideshow > div:first')
+       .fadeOut(1000)
+       .next()
+       .fadeIn(1000)
+       .end()
+       .appendTo('#slideshow');
+   },  4500)
+
 
 
 	// iPad and iPod detection	

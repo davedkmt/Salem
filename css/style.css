@@ -22,42 +22,66 @@ body {
   background: #F4F7F7;
 }
 
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 1px;
+}
+
+.slideshow {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
 .welcome-message > h1 {
       font-family: 'Alex Brush',"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-      color: #2758a8;
-      font-size: 3rem;
-      font-weight: 500;
+         color: #ffffff;
+                 font: 45px/28px Asap;
+                margin-bottom: 0.8em;
+                text-shadow: 2px 2px 4px #000;
+      font-weight: 1000;
       text-align: center;
       margin-bottom: 2rem;
       line-height: 1;
       display: inline-block;
       position: relative;
       text-transform: capitalize;
+          background-color: rgba(43,37,34,0.79)
 }
 .welcome-message >  h3 {
       font-family: 'Alex Brush',"Open Sans","Helvetica Neue";
-      color: #2758a8;
-      font-size: 3rem;
-      font-weight: 400;
+          font: 25px/28px Asap;
+      color: #ffffff;
+          margin-bottom: 0.8em;
+      font-weight: 1000;
       text-align: center;
       margin-bottom: 2rem;
-      line-height: 1;
+      line-height: 1.5;
       display: inline-block;
       position: relative;
       text-transform: capitalize;
+          background-color: rgba(43,37,34,0.79)
 }
 
 .welcome-message >  h4 {
       font-family: 'Alex Brush',"Open Sans","Helvetica Neue";
-      color: #2758a8;
+         color: #ffffff;
+                font: 20px/38px Asap;
+                margin-bottom: 0.8em;
       font-size: 2rem;
-      font-weight: 400;
+      font-weight: 1000;
       text-align: center;
       margin-bottom: 2rem;
       line-height: 1;
       display: inline-block;
       position: relative;
       text-transform: capitalize;
+          background-color: rgba(43,37,34,0.79)
 }
 
 table {
@@ -435,16 +459,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 #fh5co-home .gradient {
- background-color:lightskyblue;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  background: url('../images/dental-chair.jpg') no-repeat fixed;
-  background-size: cover;
-  opacity:0.5;
+
 }
 #banner{
 	background-size: cover;
@@ -1454,7 +1469,7 @@ h2 {
   }
   .welcome-message > h1 {
         font-family: 'Alex Brush',"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-        color: #2758a8;
+        color: #fff;
         font-size: 3rem;
         font-weight: 500;
         text-align: center;
@@ -1466,7 +1481,7 @@ h2 {
   }
   .welcome-message >  h3 {
         font-family: 'Alex Brush',cursive;
-        color: #2758a8;
+        color: #fff;
         font-size: 3rem;
         font-weight: 400;
         text-align: center;
@@ -1479,7 +1494,7 @@ h2 {
 
   .welcome-message >  h4 {
         font-family: 'Alex Brush',cursive;
-        color: #2758a8;
+        color: #fff;
         font-size: 2rem;
         font-weight: 400;
         text-align: center;
