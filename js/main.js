@@ -1,9 +1,12 @@
-;(function () {
+(function () {
 	
 	'use strict';
 
    var year = new Date().getFullYear();
-   console.log(year);
+    document.getElementById("currentYear").innerHTML = year;
+    var yearStarted = 1983;
+    var yearsOfExperience = year - yearStarted;
+    document.getElementById("yearsOfExperience").innerHTML = yearsOfExperience;
 
    $("#slideshow > div:gt(0)").hide();
 
